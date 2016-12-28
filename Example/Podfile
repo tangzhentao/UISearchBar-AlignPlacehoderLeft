@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UISearchBar-AlignPlacehoderLeft_Example' do
+  pod 'UISearchBar-AlignPlacehoderLeft', :path => '../'
+
+  target 'UISearchBar-AlignPlacehoderLeft_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
