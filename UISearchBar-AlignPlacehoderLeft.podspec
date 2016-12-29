@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: To align the placehoder of UISearchBar left. By default, the placehoder of UISearchBar is center alognment and there is no method that make placehoder left alignment.
                        DESC
 
   s.homepage         = 'https://github.com/tangzhentao/UISearchBar-AlignPlacehoderLeft.git'
