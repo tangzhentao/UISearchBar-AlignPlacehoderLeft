@@ -1,0 +1,16 @@
+PODS:
+  - UISearchBar-AlignPlacehoderLeft (0.0.1)
+
+DEPENDENCIES:
+  - UISearchBar-AlignPlacehoderLeft (from `../`)
+
+EXTERNAL SOURCES:
+  UISearchBar-AlignPlacehoderLeft:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UISearchBar-AlignPlacehoderLeft: 6617c4fe36ddf1e4020d155cc832f27c892b6e5b
+
+PODFILE CHECKSUM: da93b7613de99d1d7f35f583e366dbfe4b652c5d
+
+COCOAPODS: 1.1.1

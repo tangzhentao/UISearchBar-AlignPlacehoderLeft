@@ -1,0 +1,6 @@
+framework module UISearchBar_AlignPlacehoderLeft {
+  umbrella header "UISearchBar-AlignPlacehoderLeft-umbrella.h"
+
+  export *
+  module * { export * }
+}

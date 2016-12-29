@@ -22,7 +22,7 @@ pod "UISearchBar-AlignPlacehoderLeft"
 
 ## Author
 
-tangzhentao, tangzhentaoxl@sina.cn
+tangzhentao, tangzhenta0@126.com
 
 ## License
 

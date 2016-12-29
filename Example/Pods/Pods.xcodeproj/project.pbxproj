@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0335FC7770E854E94B17FACC2F199DEE /* UISearchBar+AlignPlaceholerLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D751D96A20CF5AD6C5B6DDA7A9AB0B /* UISearchBar+AlignPlaceholerLeft.m */; };
+		202CB51AE5824AC14A064C06A811AA8F /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 644E750912DC9B9886750F4AAF3D2826 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25C45B1FC2B10ADE32FC8F379624D802 /* UISearchBar+AlignPlaceholerLeft.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C851974DC97C911491D6E3FE22331FC /* UISearchBar+AlignPlaceholerLeft.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39065D4707372B12A87495B667F977C0 /* Pods-UISearchBar-AlignPlacehoderLeft_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF1258389C6D3E72292A0998C94E199A /* Pods-UISearchBar-AlignPlacehoderLeft_Example-dummy.m */; };
+		507E5FCEA1703C8C8FDE4115ED7992BA /* Pods-UISearchBar-AlignPlacehoderLeft_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13A7C10EA6B6DDC871FE5A240821E09A /* Pods-UISearchBar-AlignPlacehoderLeft_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84CE06F138C232E102AA178A6143B3B7 /* UISearchBar-AlignPlacehoderLeft-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AB88E3E63301630EB4D3BFE474AA05 /* UISearchBar-AlignPlacehoderLeft-dummy.m */; };
+		9DE88E409ED06113A4F2699024E7E682 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5406FFCA722B16C468743FF24CA5AD69 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-dummy.m */; };
+		BA75F8CD368187946D07891BDD4687CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CA25ABA3FE19D3C0B1233221996EAA52 /* UISearchBar-AlignPlacehoderLeft-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6149869D76CCF06F4D924E82CB3E733 /* UISearchBar-AlignPlacehoderLeft-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA60EFA572AA7BC165DE7756F3C1DDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FF3BDC2CB5319A62075D3B85C4647087 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9109A165A0F968EF26245C65505B9600 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A81CA1DEAD2E16BD864DDDA41C6F55B7;
+			remoteInfo = "UISearchBar-AlignPlacehoderLeft";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C851974DC97C911491D6E3FE22331FC /* UISearchBar+AlignPlaceholerLeft.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+AlignPlaceholerLeft.h"; sourceTree = "<group>"; };
+		0FBF06C441DBE5D7A4DC061319170FF4 /* UISearchBar-AlignPlacehoderLeft.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UISearchBar-AlignPlacehoderLeft.xcconfig"; sourceTree = "<group>"; };
+		13A7C10EA6B6DDC871FE5A240821E09A /* Pods-UISearchBar-AlignPlacehoderLeft_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example-umbrella.h"; sourceTree = "<group>"; };
+		18617CB929E1954C992B8D1D2BB60FB3 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests.modulemap"; sourceTree = "<group>"; };
+		1DECD1E3CA51A45BA4C341D76F2421A1 /* UISearchBar_AlignPlacehoderLeft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UISearchBar_AlignPlacehoderLeft.framework; path = "UISearchBar-AlignPlacehoderLeft.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F05B68F4C0D27F75EB4D5089299DA7E /* Pods-UISearchBar-AlignPlacehoderLeft_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example-resources.sh"; sourceTree = "<group>"; };
+		23EF804C95B837EE536A2F4536DF94C4 /* Pods-UISearchBar-AlignPlacehoderLeft_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example.release.xcconfig"; sourceTree = "<group>"; };
+		36AB88E3E63301630EB4D3BFE474AA05 /* UISearchBar-AlignPlacehoderLeft-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar-AlignPlacehoderLeft-dummy.m"; sourceTree = "<group>"; };
+		4A3976D3822717FD371984F38B38BF19 /* Pods-UISearchBar-AlignPlacehoderLeft_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50BFB2C4FB809931837A5EA6951929D3 /* Pods-UISearchBar-AlignPlacehoderLeft_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5406FFCA722B16C468743FF24CA5AD69 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests-dummy.m"; sourceTree = "<group>"; };
+		58AE59410F840C906D03BA9FB8A16C09 /* Pods_UISearchBar_AlignPlacehoderLeft_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UISearchBar_AlignPlacehoderLeft_Tests.framework; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F0218C8BC6C91797801AF394C745FCE /* Pods-UISearchBar-AlignPlacehoderLeft_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		644E750912DC9B9886750F4AAF3D2826 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6F85E961169076EEFA648B8F80EF7DFA /* Pods-UISearchBar-AlignPlacehoderLeft_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example.modulemap"; sourceTree = "<group>"; };
+		70A464D9098C2DB9E8A0AF50BEB17B4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70B471EAD917E67466F7D78F4661FA3F /* Pods_UISearchBar_AlignPlacehoderLeft_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UISearchBar_AlignPlacehoderLeft_Example.framework; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77DEDF8AB8E71EA5ABC62808EDAB3CD9 /* Pods-UISearchBar-AlignPlacehoderLeft_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		853F4CAD8AC868BAB1F14D75973054F3 /* UISearchBar-AlignPlacehoderLeft.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "UISearchBar-AlignPlacehoderLeft.modulemap"; sourceTree = "<group>"; };
+		8AEABA0FE3DBC1AE2277038DFDB302CD /* Pods-UISearchBar-AlignPlacehoderLeft_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9077EA21F37292DEDEEA7FDFDCDE0B9B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92D4C2EB243F397D729AF35D99BBB3E7 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D751D96A20CF5AD6C5B6DDA7A9AB0B /* UISearchBar+AlignPlaceholerLeft.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+AlignPlaceholerLeft.m"; sourceTree = "<group>"; };
+		9520D28751165A51EE92324ECE37DC6E /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B884B97A5AB5A7A39A2DD205C7374EB /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests-resources.sh"; sourceTree = "<group>"; };
+		A6149869D76CCF06F4D924E82CB3E733 /* UISearchBar-AlignPlacehoderLeft-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISearchBar-AlignPlacehoderLeft-umbrella.h"; sourceTree = "<group>"; };
+		B284C3B8D03DEDA450B108E9B625ABDB /* Pods-UISearchBar-AlignPlacehoderLeft_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B400872B34F4A6AC76F4B9926D53EB62 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UISearchBar-AlignPlacehoderLeft_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6228D296484A000F134189DDB576061 /* UISearchBar-AlignPlacehoderLeft-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UISearchBar-AlignPlacehoderLeft-prefix.pch"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF1258389C6D3E72292A0998C94E199A /* Pods-UISearchBar-AlignPlacehoderLeft_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UISearchBar-AlignPlacehoderLeft_Example-dummy.m"; sourceTree = "<group>"; };
+		EF00DCED664888A589194D45B7BBB210 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309EA1CEADC195AB37F483BB991D6938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA60EFA572AA7BC165DE7756F3C1DDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6516695DD2F99CBDA05C03477DA499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA75F8CD368187946D07891BDD4687CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE956E595E7B97131F10B1F0B209B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3BDC2CB5319A62075D3B85C4647087 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31E0219C96D4B65378A7C4790381548C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C851974DC97C911491D6E3FE22331FC /* UISearchBar+AlignPlaceholerLeft.h */,
+				94D751D96A20CF5AD6C5B6DDA7A9AB0B /* UISearchBar+AlignPlaceholerLeft.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3482F9CF779C4DC9DB4038396A1C3785 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9077EA21F37292DEDEEA7FDFDCDE0B9B /* Info.plist */,
+				18617CB929E1954C992B8D1D2BB60FB3 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests.modulemap */,
+				B400872B34F4A6AC76F4B9926D53EB62 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-acknowledgements.markdown */,
+				9520D28751165A51EE92324ECE37DC6E /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-acknowledgements.plist */,
+				5406FFCA722B16C468743FF24CA5AD69 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-dummy.m */,
+				92D4C2EB243F397D729AF35D99BBB3E7 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-frameworks.sh */,
+				9B884B97A5AB5A7A39A2DD205C7374EB /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-resources.sh */,
+				644E750912DC9B9886750F4AAF3D2826 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-umbrella.h */,
+				5F0218C8BC6C91797801AF394C745FCE /* Pods-UISearchBar-AlignPlacehoderLeft_Tests.debug.xcconfig */,
+				B284C3B8D03DEDA450B108E9B625ABDB /* Pods-UISearchBar-AlignPlacehoderLeft_Tests.release.xcconfig */,
+			);
+			name = "Pods-UISearchBar-AlignPlacehoderLeft_Tests";
+			path = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Tests";
+			sourceTree = "<group>";
+		};
+		74BCC1EDB14005961C61D62F2857A578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70B471EAD917E67466F7D78F4661FA3F /* Pods_UISearchBar_AlignPlacehoderLeft_Example.framework */,
+				58AE59410F840C906D03BA9FB8A16C09 /* Pods_UISearchBar_AlignPlacehoderLeft_Tests.framework */,
+				1DECD1E3CA51A45BA4C341D76F2421A1 /* UISearchBar_AlignPlacehoderLeft.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B4CBA01910308747F9A292865D56D1FA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				74BCC1EDB14005961C61D62F2857A578 /* Products */,
+				C41563ABE371916D1B393011711A75F3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9981ED9DF3F60C43E1D225701C462B87 /* UISearchBar-AlignPlacehoderLeft */ = {
+			isa = PBXGroup;
+			children = (
+				C57760990126CF52FF4FB0FDCA8F91FA /* Support Files */,
+				EF17B2A0007445A72209EC2F0ED2508E /* UISearchBar-AlignPlacehoderLeft */,
+			);
+			name = "UISearchBar-AlignPlacehoderLeft";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B4CBA01910308747F9A292865D56D1FA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9981ED9DF3F60C43E1D225701C462B87 /* UISearchBar-AlignPlacehoderLeft */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C41563ABE371916D1B393011711A75F3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F87B894CB6A4BAA47CF8A37360ED4DF6 /* Pods-UISearchBar-AlignPlacehoderLeft_Example */,
+				3482F9CF779C4DC9DB4038396A1C3785 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C57760990126CF52FF4FB0FDCA8F91FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF00DCED664888A589194D45B7BBB210 /* Info.plist */,
+				853F4CAD8AC868BAB1F14D75973054F3 /* UISearchBar-AlignPlacehoderLeft.modulemap */,
+				0FBF06C441DBE5D7A4DC061319170FF4 /* UISearchBar-AlignPlacehoderLeft.xcconfig */,
+				36AB88E3E63301630EB4D3BFE474AA05 /* UISearchBar-AlignPlacehoderLeft-dummy.m */,
+				C6228D296484A000F134189DDB576061 /* UISearchBar-AlignPlacehoderLeft-prefix.pch */,
+				A6149869D76CCF06F4D924E82CB3E733 /* UISearchBar-AlignPlacehoderLeft-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UISearchBar-AlignPlacehoderLeft";
+			sourceTree = "<group>";
+		};
+		EF17B2A0007445A72209EC2F0ED2508E /* UISearchBar-AlignPlacehoderLeft */ = {
+			isa = PBXGroup;
+			children = (
+				31E0219C96D4B65378A7C4790381548C /* Classes */,
+			);
+			name = "UISearchBar-AlignPlacehoderLeft";
+			path = "UISearchBar-AlignPlacehoderLeft";
+			sourceTree = "<group>";
+		};
+		F87B894CB6A4BAA47CF8A37360ED4DF6 /* Pods-UISearchBar-AlignPlacehoderLeft_Example */ = {
+			isa = PBXGroup;
+			children = (
+				70A464D9098C2DB9E8A0AF50BEB17B4E /* Info.plist */,
+				6F85E961169076EEFA648B8F80EF7DFA /* Pods-UISearchBar-AlignPlacehoderLeft_Example.modulemap */,
+				4A3976D3822717FD371984F38B38BF19 /* Pods-UISearchBar-AlignPlacehoderLeft_Example-acknowledgements.markdown */,
+				77DEDF8AB8E71EA5ABC62808EDAB3CD9 /* Pods-UISearchBar-AlignPlacehoderLeft_Example-acknowledgements.plist */,
+				CF1258389C6D3E72292A0998C94E199A /* Pods-UISearchBar-AlignPlacehoderLeft_Example-dummy.m */,
+				8AEABA0FE3DBC1AE2277038DFDB302CD /* Pods-UISearchBar-AlignPlacehoderLeft_Example-frameworks.sh */,
+				1F05B68F4C0D27F75EB4D5089299DA7E /* Pods-UISearchBar-AlignPlacehoderLeft_Example-resources.sh */,
+				13A7C10EA6B6DDC871FE5A240821E09A /* Pods-UISearchBar-AlignPlacehoderLeft_Example-umbrella.h */,
+				50BFB2C4FB809931837A5EA6951929D3 /* Pods-UISearchBar-AlignPlacehoderLeft_Example.debug.xcconfig */,
+				23EF804C95B837EE536A2F4536DF94C4 /* Pods-UISearchBar-AlignPlacehoderLeft_Example.release.xcconfig */,
+			);
+			name = "Pods-UISearchBar-AlignPlacehoderLeft_Example";
+			path = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4911E1526DB91D85898B6C84BF6ED384 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25C45B1FC2B10ADE32FC8F379624D802 /* UISearchBar+AlignPlaceholerLeft.h in Headers */,
+				CA25ABA3FE19D3C0B1233221996EAA52 /* UISearchBar-AlignPlacehoderLeft-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C617C84EAF3821713543970CEAFFA7C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202CB51AE5824AC14A064C06A811AA8F /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDED82FADF97A96F29DCE27D4F58FE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				507E5FCEA1703C8C8FDE4115ED7992BA /* Pods-UISearchBar-AlignPlacehoderLeft_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89EE37F875D28160F09E4BAAB685B150 /* Pods-UISearchBar-AlignPlacehoderLeft_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A5429545626D2FCEF0A7A144BE5013 /* Build configuration list for PBXNativeTarget "Pods-UISearchBar-AlignPlacehoderLeft_Example" */;
+			buildPhases = (
+				8088F75BA6DF856CCF29375AAFE26B12 /* Sources */,
+				8AE956E595E7B97131F10B1F0B209B7B /* Frameworks */,
+				FDDED82FADF97A96F29DCE27D4F58FE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05EFC8CAD98E1B89B3C4A3801671B5E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-UISearchBar-AlignPlacehoderLeft_Example";
+			productName = "Pods-UISearchBar-AlignPlacehoderLeft_Example";
+			productReference = 70B471EAD917E67466F7D78F4661FA3F /* Pods_UISearchBar_AlignPlacehoderLeft_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A81CA1DEAD2E16BD864DDDA41C6F55B7 /* UISearchBar-AlignPlacehoderLeft */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81008FDB74854285FFD6C7142E4DDC8B /* Build configuration list for PBXNativeTarget "UISearchBar-AlignPlacehoderLeft" */;
+			buildPhases = (
+				F7533F35ED5E25AD8E2F458314DBC5FF /* Sources */,
+				309EA1CEADC195AB37F483BB991D6938 /* Frameworks */,
+				4911E1526DB91D85898B6C84BF6ED384 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UISearchBar-AlignPlacehoderLeft";
+			productName = "UISearchBar-AlignPlacehoderLeft";
+			productReference = 1DECD1E3CA51A45BA4C341D76F2421A1 /* UISearchBar_AlignPlacehoderLeft.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E6C7FEBC981B5D3CE772390DF960C65B /* Pods-UISearchBar-AlignPlacehoderLeft_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840E650445B9CD9B146921A1FC92D730 /* Build configuration list for PBXNativeTarget "Pods-UISearchBar-AlignPlacehoderLeft_Tests" */;
+			buildPhases = (
+				B31E17F840A20D8E2B6DD3B62C838758 /* Sources */,
+				6A6516695DD2F99CBDA05C03477DA499 /* Frameworks */,
+				C617C84EAF3821713543970CEAFFA7C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-UISearchBar-AlignPlacehoderLeft_Tests";
+			productName = "Pods-UISearchBar-AlignPlacehoderLeft_Tests";
+			productReference = 58AE59410F840C906D03BA9FB8A16C09 /* Pods_UISearchBar_AlignPlacehoderLeft_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 74BCC1EDB14005961C61D62F2857A578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89EE37F875D28160F09E4BAAB685B150 /* Pods-UISearchBar-AlignPlacehoderLeft_Example */,
+				E6C7FEBC981B5D3CE772390DF960C65B /* Pods-UISearchBar-AlignPlacehoderLeft_Tests */,
+				A81CA1DEAD2E16BD864DDDA41C6F55B7 /* UISearchBar-AlignPlacehoderLeft */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8088F75BA6DF856CCF29375AAFE26B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39065D4707372B12A87495B667F977C0 /* Pods-UISearchBar-AlignPlacehoderLeft_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B31E17F840A20D8E2B6DD3B62C838758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE88E409ED06113A4F2699024E7E682 /* Pods-UISearchBar-AlignPlacehoderLeft_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7533F35ED5E25AD8E2F458314DBC5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0335FC7770E854E94B17FACC2F199DEE /* UISearchBar+AlignPlaceholerLeft.m in Sources */,
+				84CE06F138C232E102AA178A6143B3B7 /* UISearchBar-AlignPlacehoderLeft-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05EFC8CAD98E1B89B3C4A3801671B5E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UISearchBar-AlignPlacehoderLeft";
+			target = A81CA1DEAD2E16BD864DDDA41C6F55B7 /* UISearchBar-AlignPlacehoderLeft */;
+			targetProxy = 9109A165A0F968EF26245C65505B9600 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EB8CEDAD8548913E0AE4083F6DE1279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50BFB2C4FB809931837A5EA6951929D3 /* Pods-UISearchBar-AlignPlacehoderLeft_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Example/Pods-UISearchBar-AlignPlacehoderLeft_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UISearchBar_AlignPlacehoderLeft_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A3593487663AF85656D18F6D9AC6736 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F0218C8BC6C91797801AF394C745FCE /* Pods-UISearchBar-AlignPlacehoderLeft_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Tests/Pods-UISearchBar-AlignPlacehoderLeft_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UISearchBar_AlignPlacehoderLeft_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85F2F357303C6780396D66C555B8ABE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B284C3B8D03DEDA450B108E9B625ABDB /* Pods-UISearchBar-AlignPlacehoderLeft_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Tests/Pods-UISearchBar-AlignPlacehoderLeft_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UISearchBar_AlignPlacehoderLeft_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E4AD30A6FE37A5346F3859B1884824E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBF06C441DBE5D7A4DC061319170FF4 /* UISearchBar-AlignPlacehoderLeft.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UISearchBar-AlignPlacehoderLeft/UISearchBar-AlignPlacehoderLeft-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UISearchBar-AlignPlacehoderLeft/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UISearchBar-AlignPlacehoderLeft/UISearchBar-AlignPlacehoderLeft.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UISearchBar_AlignPlacehoderLeft;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB13373B117E3F530525FD949A2CD16B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FBF06C441DBE5D7A4DC061319170FF4 /* UISearchBar-AlignPlacehoderLeft.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UISearchBar-AlignPlacehoderLeft/UISearchBar-AlignPlacehoderLeft-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UISearchBar-AlignPlacehoderLeft/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UISearchBar-AlignPlacehoderLeft/UISearchBar-AlignPlacehoderLeft.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UISearchBar_AlignPlacehoderLeft;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C6A3B59BBEF33E1414E52307C7459E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23EF804C95B837EE536A2F4536DF94C4 /* Pods-UISearchBar-AlignPlacehoderLeft_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UISearchBar-AlignPlacehoderLeft_Example/Pods-UISearchBar-AlignPlacehoderLeft_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UISearchBar_AlignPlacehoderLeft_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81008FDB74854285FFD6C7142E4DDC8B /* Build configuration list for PBXNativeTarget "UISearchBar-AlignPlacehoderLeft" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB13373B117E3F530525FD949A2CD16B /* Debug */,
+				9E4AD30A6FE37A5346F3859B1884824E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840E650445B9CD9B146921A1FC92D730 /* Build configuration list for PBXNativeTarget "Pods-UISearchBar-AlignPlacehoderLeft_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A3593487663AF85656D18F6D9AC6736 /* Debug */,
+				85F2F357303C6780396D66C555B8ABE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A5429545626D2FCEF0A7A144BE5013 /* Build configuration list for PBXNativeTarget "Pods-UISearchBar-AlignPlacehoderLeft_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EB8CEDAD8548913E0AE4083F6DE1279 /* Debug */,
+				C6A3B59BBEF33E1414E52307C7459E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

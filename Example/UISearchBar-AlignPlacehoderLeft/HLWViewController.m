@@ -7,8 +7,11 @@
 //
 
 #import "HLWViewController.h"
+#import "UISearchBar+AlignPlaceholerLeft.h"
 
 @interface HLWViewController ()
+    @property (weak, nonatomic) IBOutlet UISearchBar *searchBar1;
+    @property (weak, nonatomic) IBOutlet UISearchBar *searchBar2;
 
 @end
 
@@ -18,6 +21,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.searchBar1.placeholder = @"placeholder左对齐";
+    [self.searchBar1 setAlignPlaceholerLeft:YES];
+    
+    self.searchBar2.placeholder = @"placeholder中间对齐";
 }
 
 - (void)didReceiveMemoryWarning

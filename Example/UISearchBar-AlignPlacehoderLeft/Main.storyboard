@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,14 +18,36 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="sXz-0W-Ojw">
+                                <rect key="frame" x="0.0" y="86" width="375" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="i3P-5Z-Tzl">
+                                <rect key="frame" x="0.0" y="156" width="375" height="44"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i3P-5Z-Tzl" firstAttribute="top" secondItem="sXz-0W-Ojw" secondAttribute="bottom" constant="26" id="2u4-lq-zjT"/>
+                            <constraint firstAttribute="trailing" secondItem="i3P-5Z-Tzl" secondAttribute="trailing" id="6uv-Fr-bsP"/>
+                            <constraint firstItem="sXz-0W-Ojw" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="66" id="OBa-o4-IOB"/>
+                            <constraint firstAttribute="trailing" secondItem="sXz-0W-Ojw" secondAttribute="trailing" id="YHy-wV-txa"/>
+                            <constraint firstItem="sXz-0W-Ojw" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="h5S-BG-3kU"/>
+                            <constraint firstItem="i3P-5Z-Tzl" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" id="ikJ-sS-B2T"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchBar1" destination="sXz-0W-Ojw" id="D3N-JM-ZPV"/>
+                        <outlet property="searchBar2" destination="i3P-5Z-Tzl" id="vwB-RU-bTX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="162" y="237"/>
         </scene>
     </scenes>
 </document>
